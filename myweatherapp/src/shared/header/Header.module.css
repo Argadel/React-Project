@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(95,188,234);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.change_theme,
+.logo {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    svg {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+.select{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: var(--selector-primary-default);
+    border-radius: 10px;
+}
+
+.select:hover {
+    box-shadow: var(--box-shadow-default)
+}

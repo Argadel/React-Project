@@ -1,0 +1,75 @@
+*{
+    --border:20px;
+    --box-shadow: 2px 5px 25px -3px #838996FF;
+    --light-background: #fff;
+    --primary-color: #1cadec;
+    --light-color: #52565EFF;
+    --base-color: #9CA3B2FF;
+}
+
+
+
+.current_weather_info {
+    position: relative;
+    padding: 40px;
+    max-width: 750px;
+    width: 100%;
+    background-color: var(--components-background-default);
+    border-radius: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .indicator,
+    .indicator_name, .indicator_indication, .indicator_info  {
+        margin-right: 20px;
+    }
+}
+
+.item:last-child {
+    margin-bottom: 0px;
+}
+
+.indicator {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 5px 25px -3px #256AAFFF;
+}
+
+.indicator_name {
+    font-size: 14px;
+    color: var(--text-base-default);
+}
+
+.indicator_value {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-light-default);
+}
+
+.indicator_indication {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-light-default);
+}
+
+.indicator_info {
+    font-size: 14px;
+    color: var(--text-light-default);
+}
+
+.clouds {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.2;
+    border-radius: var(--border);
+}

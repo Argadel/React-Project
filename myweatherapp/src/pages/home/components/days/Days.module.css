@@ -1,0 +1,109 @@
+*{
+    --border:20px;
+    --box-shadow: 2px 5px 25px -3px #838996FF;
+    --light-background: #fff;
+    --primary-color: #1cadec;
+    --light-color: #52565EFF;
+    --base-color: #9CA3B2FF;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    background: var(--components-background-default);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cards-primary-default);
+    border-radius: var(--border);
+    padding: 20px;
+    width: 149px;
+    transition: 0.3s;
+    cursor: pointer;
+
+    .day {
+        margin: 7px;
+        font-size: 18px;
+        color: var(--text-light-default);
+    }
+
+    .day_info {
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: var(--text-base-default);
+    }
+    .temp_day {
+        font-size: 18px;
+        margin-bottom: 12px;
+        color: var(--text-light-default);
+    }
+    .temp_night {
+        font-size: 13px;
+        margin-bottom: 12px;
+        color: var(--text-base-default);
+    }
+    .info {
+        font-size: 13px;
+        margin-bottom: 12px;
+        color: var(--text-base-default);
+    }
+}
+
+.cards:hover {
+    box-shadow: var(--box-shadow-default, 0px 3px 20px -3px);
+    border-radius: 20px;
+}
+
+.tabs_wrapper {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.cancel, .tab {
+    border-radius: 10px;
+    padding: 9px 20px;
+    background: var(--components-background-default);
+    margin-right: 15px;
+    color: var(--text-light-default);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tab:hover {
+    box-shadow: 0px 3px 20px -3px #838996FF;
+    border-radius: 10px;
+}
+
+.tab:active {
+    background-color: rgba(28,173,236,0.7);
+    color: white;
+}
+
+.cancel {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 7px;
+}
+
+.cancel:hover {
+    box-shadow: 0px 3px 20px -3px #838996FF;
+    border-radius: 10px;
+}

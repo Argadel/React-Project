@@ -1,0 +1,39 @@
+:root {
+    /*Background body themes*/
+    --body-background-dark: #002550FF;
+    --body-background-light: #fff;
+    --body-background-default: var(--body-background-light);
+
+    /*Background components themes*/
+    --components-background-dark: #4D87C9FF;
+    --components-background-light: #fff;
+    --components-background-default: var(--components-background-light);
+
+    /*Cards themes*/
+    --cards-primary-dark: #1cadec;
+    --cards-primary-light: rgba(28,173,236,0.3);
+    --cards-primary-default: var(--cards-primary-light);
+    --box-shadow-dark: 0px 3px 20px -3px #002550FF;
+    --box-shadow-light: 0px 3px 20px -3px #838996FF;
+    --box-shadow-default: var(--box-shadow-light);
+
+    /*Selector themes*/
+    --selector-primary-dark: #1cadec;
+    --selector-primary-light: rgba(28,173,236,0.3);
+    --selector-primary-default: var(--selector-primary-light);
+
+    /*Text primary themes*/
+    --text-primary-dark: #F5E9DDFF;
+    --text-primary-light: #1cadec;
+    --text-primary-default: var(--text-primary-light);
+
+    /*Text light themes*/
+    --text-light-dark: #585C65FF;
+    --text-light-light: #52565EFF;
+    --text-light-default: var(--text-light-light);
+
+    /*Text base themes*/
+    --text-base-dark: #F5E9DDFF;
+    --text-base-light: #9CA3B2FF;
+    --text-base-default: var(--text-base-light);
+}
